@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "total_samples": 100,
+    "avg_cpu": 29.803287557678104,
+    "avg_memory": 45.42402731124978,
+    "anomaly_count": 10
+  },
+  "anomalies": {
+    "count": 10,
+    "avg_cpu_during_anomalies": 57.81333808733308,
+    "avg_memory_during_anomalies": 75.39483407216302
+  },
+  "clusters": {
+    "cluster_2": {
+      "size": 23,
+      "avg_cpu": 13.533393506946723,
+      "avg_memory": 36.634993368884686
+    },
+    "cluster_1": {
+      "size": 47,
+      "avg_cpu": 10.651413376021933,
+      "avg_memory": 26.406607339995688
+    },
+    "cluster_0": {
+      "size": 30,
+      "avg_cpu": 72.28147588116683,
+      "avg_memory": 81.95624462202775
+    }
+  },
+  "recommendations": [
+    {
+      "category": "Anomaly",
+      "priority": "MEDIUM",
+      "recommendation": "Detected 10 anomalous patterns",
+      "config_change": "Review system logs and implement monitoring alerts"
+    }
+  ]
+}

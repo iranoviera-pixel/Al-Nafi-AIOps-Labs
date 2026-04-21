@@ -1,0 +1,6 @@
+timestamp,error_count,warning_count,info_count,failure_occurred
+2023-01-01,2,5,100,0
+2023-01-02,5,10,90,0
+2023-01-03,15,20,80,1
+
+
