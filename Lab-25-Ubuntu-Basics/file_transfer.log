@@ -1,0 +1,9 @@
+2026-04-24 03:01:20 - Starting file transfer to 192.168.64.2
+building file list ... 
+rsync: link_stat "/Users/master/Al-Nafi-AIOps-Labs/Lab-25-Ubuntu-Basics/testdir/." failed: No such file or directory (2)
+0 files to consider
+
+sent 29 bytes  received 20 bytes  98.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files could not be transferred (code 23) at /AppleInternal/Library/BuildRoots/bc10cbcd-3cda-11ee-b8ac-16228a05f5d2/Library/Caches/com.apple.xbs/Sources/rsync/rsync/main.c(996) [sender=2.6.9]
+2026-04-24 03:01:20 - Transfer failed
