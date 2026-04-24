@@ -1,0 +1,4 @@
+Fri 24 Apr 2026 02:52:27 BST: Memulai transfer file testfile.txt ke 192.168.64.2
+Fri 24 Apr 2026 02:52:27 BST: Transfer Gagal
+Fri 24 Apr 2026 02:56:20 BST: Memulai transfer file testfile.txt ke 192.168.64.2
+Fri 24 Apr 2026 02:56:20 BST: Transfer Berhasil
