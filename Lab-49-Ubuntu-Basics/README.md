@@ -96,4 +96,4 @@ Add this line to the crontab:
 
 @reboot /usr/local/bin/chrony_sync.sh
 Verification:
-Reboot the system and check sync status with chronyc tracking.
+Reboot the system and check sync status with chronyc tracking
