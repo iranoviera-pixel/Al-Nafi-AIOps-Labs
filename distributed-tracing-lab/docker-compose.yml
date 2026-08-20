@@ -1,0 +1,27 @@
+services:
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    container_name: jaeger
+    environment:
+      - COLLECTOR_OTLP_ENABLED=true
+    ports:
+      - "16686:16686"
+      - "4317:4317"
+      - "4318:4318"
+
+  service-b:
+    build: ./service-b
+    container_name: service-b
+    depends_on:
+      - jaeger
+    ports:
+      - "5001:5001"
+
+  service-a:
+    build: ./service-a
+    container_name: service-a
+    depends_on:
+      - jaeger
+      - service-b
+    ports:
+      - "5000:5000"
